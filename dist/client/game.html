@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Minecraft Clone</title>
+        <link rel="stylesheet" href="style.min.css" />
+    </head>
+    <body>
+        <a href="https://kaikynetto.github.io/ProjetoGameEscola/" alt="Github Link" class="gh-link">
+            <div class="button-mario">
+                Play Mario
+            </div>
+        </a>
+        <script type="module" src="bundle.js"></script>
+        <img class="overlay water-overlay" src="gui/hud/underwater.png" alt="Underwater Texture" />
+        <div id="hud" class="overlay">
+            <div class="hotbar">
+                <div class="bubblebar"></div>
+                <div class="healthbar"></div>
+                <div class="hungerbar"></div>
+                <div class="slot-container">
+                    <img src="gui/hud/slots.png" />
+                    <img src="gui/hud/selected-slot.png" class="selected" style="--index: 0" />
+                    <div class="items"></div>
+                </div>
+            </div>
+            <div class="inventory">
+                <!-- <img src="gui/hud/inventory.png" alt="" /> -->
+            </div>
+        </div>
+    </body>
+</html>
